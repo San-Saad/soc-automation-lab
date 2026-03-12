@@ -40,6 +40,20 @@ The SOC environment consists of:
 ### Day 1
 Design SOC architecture diagram.
 
+## SOC Architecture
+
+The SOC Automation Lab simulates a real-world security operations workflow.
+
+The architecture includes:
+
+- Windows 10 endpoint running Wazuh agent
+- Wazuh SIEM for detection
+- Shuffle SOAR for automation
+- TheHive for case management
+- SOC analyst investigation workflow
+
+![SOC Architecture](architecture/soc-architecture.png)
+
 ### Day 2
 Deploy SOC infrastructure in the cloud.
 
