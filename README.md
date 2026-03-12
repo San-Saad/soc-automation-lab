@@ -82,5 +82,5 @@ Automate incident response using SOAR.
 
 ## Author
 
-Rayan Dousti  
+San Saad
 Cybersecurity Student
