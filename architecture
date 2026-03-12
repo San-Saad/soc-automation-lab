@@ -1,1 +1,35 @@
 
+Windows 10 Endpoint
+        │
+        ▼
+     Router
+        │
+        ▼
+     Internet
+        │
+        ▼
+   Wazuh Manager (SIEM/XDR)
+        │
+        ▼
+      Shuffle (SOAR)
+        │
+        ├── IOC Enrichment (OSINT)
+        │
+        ├── Send Alert → TheHive
+        │
+        └── Send Email → SOC Analyst
+                         │
+                         ▼
+                  Analyst Decision
+                         │
+                         ▼
+                Response Action
+                         │
+                         ▼
+                      Shuffle
+                         │
+                         ▼
+                    Wazuh Manager
+                         │
+                         ▼
+                    Endpoint Action
