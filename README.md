@@ -52,7 +52,7 @@ The architecture includes:
 - TheHive for case management
 - SOC analyst investigation workflow
 
-![SOC Architecture](architecture/soc-architecture.png)
+![SOC Architecture](Architecture/soc-architechure.png)
 
 ### Day 2
 Deploy SOC infrastructure in the cloud.
